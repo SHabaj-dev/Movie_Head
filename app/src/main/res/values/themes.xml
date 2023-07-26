@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MovieHead" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MovieHead" parent="Base.Theme.MovieHead">
+        <item name="android:statusBarColor">@color/dark_purple</item>
+    </style>
+
+    <style name="ImageViewShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_10dp</item>
+    </style>
+</resources>
